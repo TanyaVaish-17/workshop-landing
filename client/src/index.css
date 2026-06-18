@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { scroll-behavior: smooth; }
+
+body {
+  background-color: #0D0A1F;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, #6C3FE8, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .glass-card {
+    background: rgba(19, 16, 43, 0.8);
+    border: 1px solid rgba(42, 34, 80, 0.8);
+    backdrop-filter: blur(12px);
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, #6C3FE8, #EC4899);
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(108, 63, 232, 0.5);
+  }
+}
