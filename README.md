@@ -1,13 +1,14 @@
 # 🤖 AI & Robotics Summer Workshop — Landing Page
 
-A responsive workshop landing page built for Kidrove, made as part of the Infotech Wizard internship assignment.
+A modern, responsive landing page built for an AI & Robotics Summer Workshop hosted by Kidrove — developed as part of an internship assignment with GEMA Education Technology Private Limited.
 
 ![Homepage](./screenshots/home.png)
 
 ## 🔗 Live Links
 
-- **Live Demo:** [Add your Vercel/Netlify link here]
-- **GitHub Repo:** [Add your GitHub link here]
+- **Live Demo (Frontend - Vercel):** https://workshop-landing-seven.vercel.app/
+- **Backend API (Render):** https://workshop-landing-xaru.onrender.com
+- **GitHub Repo:** https://github.com/TanyaVaish-17/workshop-landing
 
 ## 🛠️ Tech Stack
 
@@ -32,11 +33,12 @@ A responsive workshop landing page built for Kidrove, made as part of the Infote
 - 🔒 Backend API with field validation and MongoDB storage
 
 ## 📁 Project Structure
+
+```
 workshop-landing/
-
 ├── client/    # React + TypeScript frontend
-
 └── server/    # Express + TypeScript backend
+```
 
 ## ⚙️ Running Locally
 
@@ -54,12 +56,14 @@ npm install
 npm run dev
 ```
 
-Create a `.env` file inside `server/`:
+**Environment Variables**
+
+Create a `.env` file inside `server/` with the following:
+```
 PORT=5000
-
 MONGO_URI=your_mongodb_connection_string
-
 CLIENT_URL=http://localhost:5173
+```
 
 ## 📡 API Endpoint
 
