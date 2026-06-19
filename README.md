@@ -1,6 +1,6 @@
-# 🤖 AI & Robotics Summer Workshop — Landing Page
+# 🤖 AI & Robotics Summer Workshop - Landing Page
 
-A modern, responsive landing page built for an AI & Robotics Summer Workshop hosted by Kidrove — developed as part of an internship assignment with GEMA Education Technology Private Limited.
+A modern, responsive landing page built for an AI & Robotics Summer Workshop hosted by Kidrove developed as part of an internship assignment with GEMA Education Technology Private Limited.
 
 ![Homepage](./screenshots/home.png)
 
